@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="300.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainPageController">
+    <children>
+        <ImageView fx:id="bg" fitHeight="400.0" fitWidth="600" layoutY="-3.0" pickOnBounds="true" AnchorPane.rightAnchor="0.0">
+            <image>
+                <Image url="@PNGArt/Lawn/Lawn.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="43.0" fitWidth="299.0" layoutX="107.0" layoutY="-7.0" pickOnBounds="true">
+            <image>
+                <Image url="@PNGArt/Lawn/Bar.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="peas" fitHeight="43.0" fitWidth="36.0" layoutX="158.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Plants/peashooter/peashooter_seed.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="barr" fitHeight="43.0" fitWidth="36.0" layoutX="189.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Plants/wallnut/wallnut_seed.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="sunf" fitHeight="43.0" fitWidth="36.0" layoutX="220.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Plants/sunflower/sunflower_seed.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="mine" fitHeight="43.0" fitWidth="36.0" layoutX="251.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Plants/potatomine/potatomine_seed.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cherr" fitHeight="43.0" fitWidth="36.0" layoutX="282.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Plants/cherrybomb/cherrybomb_seed.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="pauseB" fitHeight="35.0" fitWidth="38.0" layoutX="515.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Lawn/pause.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="317.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Main/FlagMeter.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="meter" fitHeight="30.0" fitWidth="23.0" layoutX="494.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PNGArt/Main/zombiehead.png" />
+            </image>
+        </ImageView>
+        <Text fx:id="suncounter_txt" layoutX="117.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="31.000006198883057" />
+        <ImageView fx:id="a1" fitHeight="40.0" fitWidth="40.0" layoutX="113.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>
